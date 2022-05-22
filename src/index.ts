@@ -16,4 +16,4 @@ client.slashCommands = new Collection();
 
 require("./handler")(client);
 
-client.login(process.env.BETA_TOKEN);
+client.login(process.env.TOKEN);
