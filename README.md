@@ -10,7 +10,7 @@
 **YOU NEED TO CHANGE token TO YOUR BOT'S TOKEN.**</br>
 4 Go to handler > index.js and change "825741743235268639" to your bot testing server ID.</br>
 You don't have to worry that the command will be registered on all servers to which the bot is connected in a few hours.</br>
-5 Type `npm run build.` in your console.
+5 Type `npm run build` in your console.
 
 You can check installed modules by `npm ls`.
 
@@ -24,6 +24,6 @@ You can check installed modules by `npm ls`.
 **token을 자신의 봇 토큰으로 바꾸는 것 잊지 마세요!**<br/>
 4 handler 폴더 내 index.js에서 "825741743235268639"를 자신의 봇 테스트용 서버 ID로 바꿔주세요.
 몇 시간 내로 봇이 접속해 있는 모든 서버에 명령어가 등록될 것이므로 걱정하지 않으셔도 됩니다.</br>
-5 `npm run build.` 를 콘솔에 입력해 주세요. </br>
+5 `npm run build` 를 콘솔에 입력해 주세요. </br>
 
 설치된 모듈은 `npm ls` 명령어를 통해 확인하실 수 있습니다.
