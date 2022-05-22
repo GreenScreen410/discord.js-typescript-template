@@ -1,6 +1,6 @@
 
-# discord.js-v14-template
-![node-current](https://img.shields.io/node/v/discord.js/dev?style=flat-square)
+# discord.js-TypeScript-Template
+![node-current](https://img.shields.io/node/v/discord.js?style=flat-square)
 
 ## English
 
