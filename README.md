@@ -1,5 +1,5 @@
 
-# discord.js-TypeScript-Template
+# discord.js-typescript-template
 ![node-current](https://img.shields.io/node/v/discord.js?style=flat-square)
 
 ## English
