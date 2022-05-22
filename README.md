@@ -1,22 +1,29 @@
-# 그린Bot
-![GitHub](https://img.shields.io/github/license/GreenScreen410/GreenBot-Discord?style=flat-square) ![GitHub package.json version](https://img.shields.io/github/package-json/v/GreenScreen410/GreenBot-Discord?style=flat-square) ![node-current](https://img.shields.io/node/v/discord.js?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/GreenScreen410/GreenBot-Discord?style=flat-square) [![CodeFactor](https://www.codefactor.io/repository/github/greenscreen410/greenbot-discord/badge)](https://www.codefactor.io/repository/github/greenscreen410/greenbot-discord)
-</br>2022.02.01 ~
-## 파일 설명
-* **commands** - 빗금 명령어(Slash Command)가 들어있습니다. 텍스트 형태의 명령어는 모두 삭제하였습니다.
 
-* ~~**commands** - 텍스트 명령어가 들어있습니다. 접두사는 G이며, 잘 사용되지 않습니다.~~
+# discord.js-TypeScript-Template
+![node-current](https://img.shields.io/node/v/discord.js?style=flat-square)
 
-* **events** - 빗금, 텍스트 명령어, 음악 명령어 반응 파일이 들어있습니다.
+## English
 
-* **handler** - 명령어 폴더 내에 있는 파일을 불러올때 쓰입니다.
+1 First, type `npm install` in your console.<br/>
+2 This is TypeScript project, so You need to install some modules. type `npm install -D @types/glob @types/node ts-node typescript`.<br/>
+3 You need to make .env file. This process is very important and this file will serve to store the bot's tokens. Type this in your .env file `TOKEN = token` <br/>
+**YOU NEED TO CHANGE token TO YOUR BOT'S TOKEN.**</br>
+4 Go to handler > index.js and change "825741743235268639" to your bot testing server ID.</br>
+You don't have to worry that the command will be registered on all servers to which the bot is connected in a few hours.</br>
+5 Type `npm run build` in your console.
 
-* **models** - mongodb(데이터베이스) 관련 파일이 들어있습니다.
+You can check installed modules by `npm ls`.
 
-* **.gitignore** - Github에 업로드 시, 무시할 파일들이 들어있습니다. 이 파일은 봇 실행에 영향을 주지 않습니다.
+<br/>
 
-* **Procfile** - Heroku에서 실행시킬 명령어를 담고있습니다. Heroku에서 호스팅하지 않는다면 해당 파일은 삭제하셔도 괜찮습니다.
+## 한국어
 
-* **index.js** - 봇을 실행시킬 때 쓰이는 파일입니다.
+1 먼저 콘솔에 `npm install`을 입력해 주세요.<br/>
+2 이 프로젝트는 TypeScript 프로젝트이므로 몇몇 모듈을 더 설치해야 합니다. `npm install -D @types/glob @types/node ts-node typescript`를 입력해 주세요. <br/>
+2 .env 파일을 만들어야 합니다. 이 과정은 매우 중요하며, 봇의 토큰을 저장하는 역할을 할것입니다. .env 파일에 이렇게 써주세요. `TOKEN = token` <br/>
+**token을 자신의 봇 토큰으로 바꾸는 것 잊지 마세요!**<br/>
+4 handler 폴더 내 index.js에서 "825741743235268639"를 자신의 봇 테스트용 서버 ID로 바꿔주세요.
+몇 시간 내로 봇이 접속해 있는 모든 서버에 명령어가 등록될 것이므로 걱정하지 않으셔도 됩니다.</br>
+5 `npm run build` 를 콘솔에 입력해 주세요. </br>
 
-* **package-lock.json** - npm 패키지 관련 파일입니다.
-* **package.json** - npm 패키지 관련 파일입니다.
+설치된 모듈은 `npm ls` 명령어를 통해 확인하실 수 있습니다.
